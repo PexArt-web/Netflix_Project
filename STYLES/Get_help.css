@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background-image:url('../IMAGES/crown\ editt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+
+    height: 12vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 9px auto;
+}
+svg{
+    height: 7vh;
+    fill: rgb(255, 0, 0);
+}
+nav a{
+    height: 8vh;
+    font-size: 130%;
+    font-weight: 700;
+    /* background-color: rgb(0, 0, 0); */
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.formsection{
+    margin-top: 30px;
+    height: 75vh;
+    width: 35vw;
+    margin: 4px auto;
+    text-align: justify;
+    padding: 40px;
+    line-height: 150%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.email_input{
+    width: 28vw;
+    height: 6vh;
+}
+.Email_btn{
+    background-color: rgb(1,121,242);
+    width: 28vw;
+    height: 7vh;
+    border: none;
+    cursor: pointer;
+    
+}
+.Email_btn a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+}
+.last{
+    text-decoration: none;
+}
+.last:hover{
+    text-decoration: underline;
+}
+.baseline{
+    margin-left: 32.5%;
+    color: rgb(153,153,153);
+    margin-top:1% ;
+    font-weight: 450;
+}
+.baseline a{
+    color: rgb(153,153,153);
+    font-weight: normal;
+}
+footer{
+    height: 40vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin-left: -20%;
+
+}
+footer ul li{
+    list-style-type: none;
+    line-height: 250%;
+    font-size: 95%;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(153,153,153);
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+.footerbase{
+    height: 6vh;
+    background-color: rgb(255, 255, 255);
+}
